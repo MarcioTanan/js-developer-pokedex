@@ -4,8 +4,8 @@ const pagination = document.querySelector('.pagination')
 const backButton = document.querySelector('#back')
 const frame = document.querySelector('#frame')
 
-const maxRecords = 151
-const limit = 10
+const maxRecords = 248
+const limit = 20
 let offset = 0;
 
 function convertPokemonToLi(pokemon) {
